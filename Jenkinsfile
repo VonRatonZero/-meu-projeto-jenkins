@@ -4,16 +4,16 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Compilando...'
-                     }
+            }
         }
         stage('Test') {
             steps {
-                echo 'Rodando Testes...'
+                echo 'Rodando testes...'
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Deploy Realizado com Sucesso!!!!'
+                echo 'Deploy realizado com sucesso!!!!'
             }
         }
     }
